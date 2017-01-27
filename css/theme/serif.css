@@ -4,6 +4,9 @@
  *
  * This theme is Copyright (C) 2012-2013 Owen Versteeg, http://owenversteeg.com - it is MIT licensed.
  */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 .reveal a {
   line-height: 1.3em; }
 
@@ -15,7 +18,7 @@ body {
   background-color: #F0F1EB; }
 
 .reveal {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
+  font-family: "Roboto", "Book Antiqua", Palatino, FreeSerif, serif;
   font-size: 40px;
   font-weight: normal;
   color: #000; }
@@ -46,7 +49,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #383D3D;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
+  font-family: "Roboto", "Book Antiqua", Palatino, FreeSerif, serif;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
@@ -55,7 +58,8 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 4em; }
+    font-family: "Overpass", serif;
+    font-size: 4em; }
 
 .reveal h2 {
   font-size: 2.5em; }
@@ -156,7 +160,7 @@ body {
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
 
 .reveal code {
-  font-family: monospace; }
+  font-family: "Overpass Mono", monospace; }
 
 .reveal pre code {
   display: block;
